@@ -1,0 +1,12 @@
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\bin\Debug\net8.0\ModbusRTUlib.deps.json
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\bin\Debug\net8.0\ModbusRTUlib.dll
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\bin\Debug\net8.0\ModbusRTUlib.pdb
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.csproj.AssemblyReference.cache
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.AssemblyInfoInputs.cache
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.AssemblyInfo.cs
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.csproj.CoreCompileInputs.cache
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.dll
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\refint\ModbusRTUlib.dll
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ModbusRTUlib.pdb
+D:\Code\C#\WinForm\Modbus.Project\ModbusRTUlib\obj\Debug\net8.0\ref\ModbusRTUlib.dll
