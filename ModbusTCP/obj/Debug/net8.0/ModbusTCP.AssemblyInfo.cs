@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Modbus.Project")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ModbusTCP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15bc9be3c0ffea22b92e2741aafa6ba5b9cd3746")]
-[assembly: System.Reflection.AssemblyProductAttribute("Modbus.Project")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Modbus.Project")]
+[assembly: System.Reflection.AssemblyProductAttribute("ModbusTCP")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ModbusTCP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

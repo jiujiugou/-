@@ -14,11 +14,26 @@ namespace ModbusRTUlib
         /// 串口通信延迟时间
         /// </summary>
         public int SleepTime { get; set; } = 5;
+        /// <summary>
+        /// 读取超时时间
+        /// </summary>
         public int ReadTimeOut { get; set; } = 2000;
+        /// <summary>
+        /// 写入超时时间
+        /// </summary>
         public int WriteTimeOut { get; set; } = 2000;
+        /// <summary>
+        /// 接收超时时间
+        /// </summary>
         public int ReceiveTimeOut { get; set; } = 5000;
+        /// <summary>
+        /// DTR使能
+        /// </summary>
         private bool dtrEnable = false;
-
+        /// <summary>
+        /// 简单混合锁
+        /// </summary>
+        SimpleHybirdLock simpleHybirdLock = new SimpleHybirdLock();
         public bool DtrEnable
         {
             get { return dtrEnable = false; }
@@ -40,6 +55,7 @@ namespace ModbusRTUlib
         public ModbusRTU()
         {
             SerialPort = new SerialPort();
+
         }
         #endregion
 
@@ -422,6 +438,7 @@ namespace ModbusRTUlib
             return false;
         }
         #endregion
+        
         #region CRC校验
         private static readonly Byte[] aucCRCHi =
         {
@@ -494,6 +511,8 @@ namespace ModbusRTUlib
         {
             try
             {
+
+                simpleHybirdLock.Enter();
                 //发送报文
                 this.SerialPort.Write(send, 0, send.Length);
                 //定义buffer
@@ -528,6 +547,10 @@ namespace ModbusRTUlib
             }catch(Exception)
             {
                 return false;
+            }
+            finally
+            {
+                simpleHybirdLock.Leave();
             }
         }
         #endregion

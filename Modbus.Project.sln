@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modbus.Project", "Modbus.Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusRTUlib", "ModbusRTUlib\ModbusRTUlib.csproj", "{92A5CE51-5689-4D0C-AAAF-8B4841D865B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusTCP", "ModbusTCP\ModbusTCP.csproj", "{ECB45E2A-2DF1-4491-AE98-46105DDAC59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{92A5CE51-5689-4D0C-AAAF-8B4841D865B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A5CE51-5689-4D0C-AAAF-8B4841D865B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A5CE51-5689-4D0C-AAAF-8B4841D865B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB45E2A-2DF1-4491-AE98-46105DDAC59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB45E2A-2DF1-4491-AE98-46105DDAC59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB45E2A-2DF1-4491-AE98-46105DDAC59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB45E2A-2DF1-4491-AE98-46105DDAC59F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModbusRTUlib\ModbusRTUlib.csproj" />
+    <ProjectReference Include="..\ModbusTCP\ModbusTCP.csproj" />
   </ItemGroup>
 
 </Project>
